@@ -1,3 +1,7 @@
+/*Find the Key with the Highest Value
+Given a Map<String, Integer>, find the key with the maximum value.
+Example:
+Input: {A=10, B=20, C=15} → Output: B.*/
 package com.collection.map.findthekeywiththehighestvalue;
 
 import java.util.HashMap;
