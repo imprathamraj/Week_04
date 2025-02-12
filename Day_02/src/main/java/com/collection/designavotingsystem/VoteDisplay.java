@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class VoteDisplay {
-    //method to displaty the votes
+    //method to display the votes
     public static void displayResults(HashMap<String, Integer> voteMap) {
         TreeMap<String, Integer> sortedVotes = new TreeMap<>(voteMap);
 
