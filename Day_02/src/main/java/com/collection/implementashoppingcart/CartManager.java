@@ -26,7 +26,6 @@ public class CartManager {
             System.out.println(product +" Not found in cart");
         }
     }
-
     public HashMap<String, Double> getProductPrices() {
         return productPrices;
     }
