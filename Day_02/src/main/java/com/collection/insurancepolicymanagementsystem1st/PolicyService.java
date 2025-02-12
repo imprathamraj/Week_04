@@ -3,6 +3,7 @@ package com.collection.insurancepolicymanagementsystem1st;
 import java.util.*;
 
 public class PolicyService {
+    //Method to displayAllPolicies
     public static void displayAllPolicies(Set<Policy> policies) {
         System.out.println("All Policies:");
         for (Policy policy : policies) {
@@ -10,6 +11,7 @@ public class PolicyService {
         }
     }
 
+    //Method to displayExpiringSoon
     public static void displayExpiringSoon(Set<Policy> policies) {
         Date today = new Date();
         Calendar calendar = Calendar.getInstance();
@@ -25,6 +27,7 @@ public class PolicyService {
         }
     }
 
+    //Method to displayByCoverageType
     public static void displayByCoverageType(Set<Policy> policies, String type) {
         System.out.println("Policies with coverage type: " + type);
         for (Policy policy : policies) {
@@ -34,6 +37,7 @@ public class PolicyService {
         }
     }
 
+    //Method to findDuplicatePolicies
     public static void findDuplicatePolicies(Set<Policy> policies) {
         Map<String, Integer> policyCount = new HashMap<>();
         for (Policy policy : policies) {

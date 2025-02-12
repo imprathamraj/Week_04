@@ -9,6 +9,7 @@ public class Policy implements Comparable<Policy> {
     String coverageType;
     double premiumAmount;
 
+    //Constructor
     public Policy(String policyNumber, String policyholderName, Date expiryDate, String coverageType, double premiumAmount) {
         this.policyNumber = policyNumber;
         this.policyholderName = policyholderName;
