@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-import static org.collectionframwork.setinterface.unionintersection.UnionAndIntersection.findIntersection;
-import static org.collectionframwork.setinterface.unionintersection.UnionAndIntersection.findUnion;
+import static com.collection.set.unionintersection.UnionAndIntersection.findIntersection;
+import static com.collection.set.unionintersection.UnionAndIntersection.findUnion;
 
 public class Main {
     public static void main(String[] args) {
