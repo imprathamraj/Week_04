@@ -1,4 +1,4 @@
-package com.collection.map.wordfrequencycounter.invertamap;
+package com.collection.map.invertmap;
 
 import java.util.*;
 
