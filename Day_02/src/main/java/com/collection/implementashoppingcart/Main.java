@@ -1,4 +1,4 @@
-package org.collectionframwork.shoppingcart;
+package com.collection.implementashoppingcart;
 
 import com.collection.implementashoppingcart.CartDisplay;
 import com.collection.implementashoppingcart.CartManager;
