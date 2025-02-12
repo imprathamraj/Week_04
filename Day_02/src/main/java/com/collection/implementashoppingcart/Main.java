@@ -1,8 +1,5 @@
 package com.collection.implementashoppingcart;
 
-import com.collection.implementashoppingcart.CartDisplay;
-import com.collection.implementashoppingcart.CartManager;
-
 public class Main {
     public static void main(String[] args) {
         CartManager manager = new CartManager();
