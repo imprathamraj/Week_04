@@ -5,7 +5,7 @@ import java.io.*;
 public class DataStreams {
     // Method to store student details in a binary file
     public static void storeStudentDetails() {
-        try (DataOutputStream dos = new DataOutputStream(new FileOutputStream("students.txt"))) {
+        try (DataOutputStream dos = new DataOutputStream(new FileOutputStream("src/main/java/com/streams/datastreams/students.txt"))) {
             // Writing student details (roll number, name, GPA)
             dos.writeInt(1);
             dos.writeUTF("Pratham");
