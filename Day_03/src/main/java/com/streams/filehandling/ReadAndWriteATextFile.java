@@ -8,13 +8,13 @@ Ensure that the destination file is created if it does not exist.
 */
 package com.streams.filehandling;
 
-import java.io.*;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class ReadAndWriteATextFile {
     public static void main(String[] args) {
+        //Try block
         try(FileInputStream fis = new FileInputStream("src/main/java/com/streams/filehandling/read.txt");
             FileOutputStream fos = new FileOutputStream("src/main/java/com/streams/filehandling/write.txt")) {
             int data;
@@ -22,6 +22,7 @@ public class ReadAndWriteATextFile {
                 fos.write(data);
             }
         }
+        //Catch block
         catch (IOException e) {
             throw new RuntimeException(e);
         }
